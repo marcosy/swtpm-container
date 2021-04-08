@@ -8,7 +8,6 @@ chown tss:root /tmp/mytpm2
 swtpm_setup --tpmstate /tmp/mytpm2  \
             --create-ek-cert        \
             --create-platform-cert  \
-            --allow-signing         \
             --tpm2                  \
             --overwrite             \
             --logfile /swtpm.log
